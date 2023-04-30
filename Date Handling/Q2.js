@@ -1,7 +1,4 @@
 // 2. Write a JavaScript function to get the current date.
-//
-//
-//
 // Note : Pass a separator as an argument.
 //
 // Test Data :
