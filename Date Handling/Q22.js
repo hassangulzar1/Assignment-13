@@ -7,3 +7,10 @@
 // console.log(ISO_numeric_date(dt));
 //
 // 7
+let dt = new Date(2015, 10, 8);
+let ISO_numeric_date = (dt) => {
+  let date = dt.getDay();
+  let days = ["mon", "tue", "wed", "thu", "fri", "sat", "sun"];
+  return days[date];
+};
+console.log(ISO_numeric_date(dt));

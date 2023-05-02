@@ -9,3 +9,10 @@
 // console.log(ISO8601_week_no(dt));
 //
 // 44
+
+let dt = new Date(2015, 10, 1);
+let ISO8601_week_no = (dt) => {
+  let month = dt.getMonth();
+  return 4 * month;
+};
+console.log(ISO8601_week_no(dt));
