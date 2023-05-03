@@ -12,7 +12,6 @@
 
 let dt = new Date(2015, 10, 1);
 let ISO8601_week_no = (dt) => {
-  let month = dt.getMonth();
-  return 4 * month;
+  return dt.getMonth() * 4;
 };
 console.log(ISO8601_week_no(dt));
